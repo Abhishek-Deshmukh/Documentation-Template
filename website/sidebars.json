@@ -1,0 +1,6 @@
+{
+  "docs": {
+    "User Guide": ["intro-user"],
+    "Developer Documentation": ["intro-dev"]
+  }
+}
