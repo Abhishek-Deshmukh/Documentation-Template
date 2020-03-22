@@ -6,11 +6,15 @@ Derived from [ open power quality's documentation ]( https://github.com/openpowe
 
 ### Quick guide
 
-To install: `cd website; npm install`
+1. Fork it: button on top right of the screen.
 
-To run locally: `npm start`
+2. Rename and clone with: `git clone [url of your fork]`
 
-To build: `npm run build`
+3. To install: `cd website; npm install`
+
+4. To run locally: `npm start`
+
+5. To build: `npm run build`
 
 ## Writing math
 
@@ -23,9 +27,10 @@ For standalone formulas, you can use $$. For inline formulas, you must use \\() 
 - Update the website/pages/en/\*.js
 
 ## Adding a new file
-- Add it in webiste/sidebars.js
+- Add it in website/sidebars.js
 - Make the file in ./docs
 
-### Friendly Advice
-- Update the color scheme in siteConfig.js and website/static/css/custom.css
-- Keep the documentation folder in the same repository as the actual code it makes it easier of the developer to update it directly.
+### Friendly Advice and other things
+- To enable search feature checkout [this](https://docusaurus.io/docs/en/search) out.
+- Update the color scheme in siteConfig.js and website/static/css/custom.css. We don't want all the documentations to look the same now, do we :)
+- Keep the documentation folder in the same repository as the actual code it makes it easier of the developer to update it directly. Use [submodules](https://github.blog/2016-02-01-working-with-submodules) for better version control.
