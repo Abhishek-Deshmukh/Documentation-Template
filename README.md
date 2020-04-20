@@ -4,6 +4,9 @@ Intended to be use for Scientific Software Documentation.
 
 Derived from [ open power quality's documentation ]( https://github.com/openpowerquality/docusaurus )
 
+### Requirements
+1. [ Node ](https://nodejs.org/en/)
+
 ### Quick guide
 
 1. Fork it: button on top right of the screen.
