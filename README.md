@@ -4,6 +4,8 @@ Intended to be use for Scientific Software Documentation.
 
 Derived from [ open power quality's documentation ]( https://github.com/openpowerquality/docusaurus )
 
+Basically you write Markdown and this converts it into `HTML`,`CSS`,`JS`
+
 ### Requirements
 1. [ Node ](https://nodejs.org/en/)
 
@@ -23,17 +25,20 @@ Derived from [ open power quality's documentation ]( https://github.com/openpowe
 
 For standalone formulas, you can use $$. For inline formulas, you must use \\() and \\).
 
-## To do before getting started with documentation
-- Add in the logo in website/img/favicon
-- Update the website/siteConfig.js file
-- Update the website/core/footer.js file
-- Update the website/pages/en/\*.js
+## Adding a new file/page
 
-## Adding a new file
 - Add it in website/sidebars.js
 - Make the file in ./docs
 
+## To do before getting started with documentation
+
+- [ ] Add in the logo in website/img/favicon
+- [ ] Update the website/siteConfig.js file
+- [ ] Update the website/core/footer.js file
+- [ ] Update the website/pages/en/\*.js
+
 ### Friendly Advice and other things
+
 - To enable search feature checkout [this](https://docusaurus.io/docs/en/search) out.
 - Update the color scheme in siteConfig.js and website/static/css/custom.css. We don't want all the documentations to look the same now, do we :)
 - Keep the documentation folder in the same repository as the actual code it makes it easier of the developer to update it directly. Use [submodules](https://github.blog/2016-02-01-working-with-submodules) for better version control.
